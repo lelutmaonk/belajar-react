@@ -1,14 +1,11 @@
 import React from "react";
-import LoginPage from "./Pages/login";
-import RegisterPage from "./Pages/register";
 
 function App() {
   return (
     <>
-    <div className="flex justify-center min-h-screen items-center">
-     {/* <LoginPage /> */}
-     <RegisterPage />
-    </div>
+     <div className="flex justify-center min-h-screen items-center bg-blue-700">
+        <h1 className="text-white text-xl font-bold">TESTING OKE MANTAP</h1>
+      </div>
     </>
   )
 }
